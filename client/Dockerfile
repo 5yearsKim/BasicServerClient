@@ -11,4 +11,4 @@ COPY client/run_client.py ./run_client.py
 RUN pip install --no-cache-dir -r requirements.txt
 
 # 실행 명령 설정
-CMD ["python", "run_client.py"]
+CMD ["python run_client.py"]
